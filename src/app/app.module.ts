@@ -49,7 +49,7 @@ import { ContentfulService } from './services/contentful.service';
     SignupComponent,
   ],
   imports: [
-    Ng2PageScrollModule.forRoot(),
+    Ng2PageScrollModule,
     ReactiveFormsModule,   
     BrowserAnimationsModule,
     GalleryModule.forRoot(),
