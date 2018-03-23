@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900|Open+Sans:300,400,600,700');
 
 /* === prettify === */
-@import '~/pretty-code-prettify/bin/prettify.min.css';
+@import '~google-code-prettify/bin/prettify.min.css';
 
 /* ===================================
 1. General
@@ -569,7 +569,7 @@ header ul.nav li ul li.dropdown-submenu li a {
 	padding:0;
 }
 #featured.bg {
-	background: url(../img/dummies/feat-bg.jpg) no-repeat top center;
+	background: url(/assets/img/dummies/feat-bg.jpg) no-repeat top center;
 }
 
 /* ===================================
@@ -671,7 +671,7 @@ section.callaction {
 }
 
 #parallax1{	
-	background-image: url(../img/parallax/1.jpg);
+	background-image: url(/assets/img/parallax/1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display:block;
@@ -2526,34 +2526,34 @@ a.btn.btn-wide {
 }
 
 .bgr .bg.bg1 {
-	background: url(../img/bodybg/bg1.png) repeat left top;
+	background: url(/assets/img/bodybg/bg1.png) repeat left top;
 }	
 .bgr .bg.bg2 {
-	background: url(../img/bodybg/bg2.png) repeat left top;
+	background: url(/assets/img/bodybg/bg2.png) repeat left top;
 }	
 .bgr .bg.bg3 {
-	background: url(../img/bodybg/bg3.jpg) repeat left top;
+	background: url(/assets/img/bodybg/bg3.jpg) repeat left top;
 }	
 .bgr .bg.bg4 {
-	background: url(../img/bodybg/bg4.png) repeat left top;
+	background: url(/assets/img/bodybg/bg4.png) repeat left top;
 }	
 .bgr .bg.bg5 {
-	background: url(../img/bodybg/bg5.png) repeat left top;
+	background: url(/assets/img/bodybg/bg5.png) repeat left top;
 }	
 .bgr .bg.bg6 {
-	background: url(../img/bodybg/bg6.png) repeat left top;
+	background: url(/assets/img/bodybg/bg6.png) repeat left top;
 }	
 .bgr .bg.bg7 {
-	background: url(../img/bodybg/bg7.png) repeat left top;
+	background: url(/assets/img/bodybg/bg7.png) repeat left top;
 }	
 .bgr .bg.bg8 {
-	background: url(../img/bodybg/bg8.jpg) repeat left top;
+	background: url(/assets/img/bodybg/bg8.jpg) repeat left top;
 }	
 .bgr .bg.bg9 {
-	background: url(../img/bodybg/bg9.png) repeat left top;
+	background: url(/assets/img/bodybg/bg9.png) repeat left top;
 }	
 .bgr .bg.bg10 {
-	background: url(../img/bodybg/bg10.png) repeat left top;
+	background: url(/assets/img/bodybg/bg10.png) repeat left top;
 }	
 
 #accent_color{
@@ -2587,16 +2587,16 @@ a.btn.btn-wide {
 Font-Face Icons
 ================================================== */
 
-@font-face {
-	font-family: 'Icons';
-	src:url('../fonts/customicon/Icons.eot');
-	src:url('../fonts/customicon/Icons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/customicon/Icons.woff') format('woff'),
-		url('../fonts/customicon/Icons.ttf') format('truetype'),
-		url('../fonts/customicon/Icons.svg#Icons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+// @font-face {
+// 	font-family: 'Icons';
+// 	src:url('../fonts/customicon/Icons.eot');
+// 	src:url('../fonts/customicon/Icons.eot?#iefix') format('embedded-opentype'),
+// 		url('../fonts/customicon/Icons.woff') format('woff'),
+// 		url('../fonts/customicon/Icons.ttf') format('truetype'),
+// 		url('../fonts/customicon/Icons.svg#Icons') format('svg');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
