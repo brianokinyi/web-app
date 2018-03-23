@@ -12,7 +12,6 @@ import { GalleryModule } from '@ngx-gallery/core';
 import { LightboxModule } from '@ngx-gallery/lightbox';
 import { GallerizeModule } from '@ngx-gallery/gallerize';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { Ng2PageScrollModule } from 'ng2-page-scroll';
 
 // Custom modules
 import { AppRoutes } from './app.routes';
@@ -55,7 +54,6 @@ import { MdToHtmlPipe } from './utils/markdown-to-html/md-to-html.pipe';
     MdToHtmlPipe,
   ],
   imports: [
-    Ng2PageScrollModule.forRoot(),
     ReactiveFormsModule,
     BrowserAnimationsModule,
     GalleryModule.forRoot(),
