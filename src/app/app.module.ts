@@ -54,7 +54,12 @@ import { MdToHtmlPipe } from './utils/markdown-to-html/md-to-html.pipe';
     MdToHtmlPipe,
   ],
   imports: [
+<<<<<<< HEAD
     ReactiveFormsModule,
+=======
+    Ng2PageScrollModule.forRoot(),
+    ReactiveFormsModule,   
+>>>>>>> parent of 49aba91... minor changes
     BrowserAnimationsModule,
     GalleryModule.forRoot(),
     GallerizeModule,
